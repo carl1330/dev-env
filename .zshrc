@@ -102,7 +102,5 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-export XDG_CONFIG_HOME=$HOME/.config
-alias vim=nvim
-export PATH="/opt/homebrew/bin:$PATH"
- 
+source ~/.zsh_profile
+

@@ -1,0 +1,14 @@
+#!/usr/bin/env zsh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export XDG_CONFIG_HOME=$HOME/.config
+alias vim=nvim
+
+export PATH="/opt/homebrew/bin:$PATH"
+export PATH="$HOME/.local/scripts:$PATH"
+
+start_tmux_sessionizer() {
+    tmux-sessionizer
+}
+zle -N start_tmux_sessionizer
+bindkey '^F' start_tmux_sessionizer
