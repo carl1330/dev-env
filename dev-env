@@ -57,3 +57,4 @@ copy_dir config $XDG_CONFIG_HOME
 
 copy_file .yabairc $HOME
 copy_file .skhdrc $HOME
+copy_file .zshrc $HOME

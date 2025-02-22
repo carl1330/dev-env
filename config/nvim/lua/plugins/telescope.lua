@@ -12,7 +12,7 @@ return {
 		builtin.grep_string({ search = vim.fn.input("Grep > ")})
 	end)
 	vim.keymap.set('n', '<leader>pF', function()
-		builtin.live_grep({ search = vim.fn.input("Grep > ")})
+		builtin.live_grep({search_dirs={"."}})
 	end)
      end
 }

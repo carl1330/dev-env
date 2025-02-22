@@ -7,4 +7,3 @@ cd $HOME/personal/neovim
 make CMAKE_BUILD_TYPE=RelWithDebInfo
 sudo make install
 
-grep -qxF 'alias vim=nvim' ~/.zshrc || echo 'alias vim=nvim' >> ~/.zshrc
