@@ -1,1 +1,2 @@
 sudo sh -c "$(curl -L https://raw.githubusercontent.com/koekeishiya/yabai/master/scripts/install.sh)"
+yabai --start-service

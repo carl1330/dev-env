@@ -4,3 +4,4 @@ cd $HOME/personal/skhd
 brew install cmake xcode
 make install
 sudo cp ./bin/skhd /usr/local/bin/skhd
+skhd --start-service
