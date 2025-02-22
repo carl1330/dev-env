@@ -92,5 +92,6 @@ ctrl + cmd - left : yabai -m space --focus prev
 
 ctrl + cmd - z: yabai -m space --focus chrome 
 ctrl + cmd - x: yabai -m space --focus ghostyy
+ctrl + cmd - c: yabai -m space --focus 3
 
 
