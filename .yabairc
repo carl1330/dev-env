@@ -1,0 +1,7 @@
+#Script setup stuff
+yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
+sudo yabai --load-sa
+
+yabai -m config layout bsp
+yabai -m space 1 --label chrome
+yabai -m space 2 --label ghostyy

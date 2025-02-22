@@ -1,0 +1,3 @@
+#!/bin/bash
+
+grep -qxF 'export XDG_CONFIG_HOME=$HOME/.config' ~/.zshrc || echo 'export XDG_CONFIG_HOME=$HOME/.config' >> ~/.zshrc

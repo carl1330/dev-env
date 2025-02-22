@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env zsh
 
 git clone -b v0.10.1 https://github.com/neovim/neovim.git $HOME/personal/neovim
 brew install cmake gettext lua
@@ -6,3 +6,5 @@ brew install cmake gettext lua
 cd $HOME/personal/neovim
 make CMAKE_BUILD_TYPE=RelWithDebInfo
 sudo make install
+
+grep -qxF 'alias vim=nvim' ~/.zshrc || echo 'alias vim=nvim' >> ~/.zshrc
