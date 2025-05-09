@@ -5,3 +5,5 @@ sudo yabai --load-sa
 yabai -m config layout bsp
 yabai -m space 1 --label chrome
 yabai -m space 2 --label ghostyy
+yabai -m space 3 --label chat 
+yabai -m space 4 --label meet 

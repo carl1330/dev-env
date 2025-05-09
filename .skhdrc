@@ -96,6 +96,7 @@ ctrl + cmd - l : yabai -m window --focus east
 
 ctrl + cmd - z: yabai -m space --focus chrome 
 ctrl + cmd - x: yabai -m space --focus ghostyy
-ctrl + cmd - c: yabai -m space --focus 3
+ctrl + cmd - c: yabai -m space --focus chat
+ctrl + cmd - v: yabai -m space --focus meet
 
 
