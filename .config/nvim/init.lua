@@ -11,9 +11,7 @@ vim.o.shiftwidth = 4 -- Number of spaces inserted when indenting
 vim.wo.number = true
 
 vim.filetype.add({
-  extension = {
-    jinja2 = "jinja",
-  },
+	extension = {
+		jinja2 = "jinja",
+	},
 })
-
-
