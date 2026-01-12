@@ -1,9 +1,7 @@
 #!/usr/bin/env zsh
 
-if [[ -x ".ready-tmux" ]]; then
-    echo "Found tmux file"
+if [[ -x "./.ready-tmux" ]]; then
     ./.ready-tmux 
 elif [[ -x "$HOME/.ready-tmux" ]]; then
-    echo "No tmux file found"
     $HOME/.ready-tmux 
 fi
