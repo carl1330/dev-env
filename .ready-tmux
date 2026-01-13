@@ -1,5 +1,6 @@
 #!/usr/bin/env zsh
 
+tmux neww -dn opencode opencode
 tmux neww -dn scratch
 nvim .
 clear
