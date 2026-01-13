@@ -13,16 +13,19 @@ yabai -m space 1 --label browser
 yabai -m space 2 --label ghostyy
 yabai -m space 3 --label chat 
 yabai -m space 4 --label mail 
+yabai -m space 5 --label calendar
 
 yabai -m rule --add app="Zen" space=browser
 yabai -m rule --add app="Ghostty" space=ghostyy
 yabai -m rule --add app="Slack" space=chat
 yabai -m rule --add app="Mail" space=mail
+yabai -m rule --add app="Calendar" space=calendar
 
 open -a Zen
 open -a Ghostty
 open -a Slack
 open -a Mail
+open -a Calendar
 
 # Clean up empty spaces with no windows on them.
 yabai -m signal --add event=space_changed action="/bin/zsh ~/.config/yabai/scripts/cleanEmptySpaces.sh"

@@ -98,5 +98,6 @@ ctrl + cmd - z: yabai -m space --focus browser
 ctrl + cmd - x: yabai -m space --focus ghostyy
 ctrl + cmd - c: yabai -m space --focus chat
 ctrl + cmd - v: yabai -m space --focus mail 
+ctrl + cmd - b: yabai -m space --focus calendar 
 
 
